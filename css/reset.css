@@ -28,18 +28,18 @@ button{
 
 body{
     font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
-    /* font-family: 'ËÎÌå';
+    /* font-family: 'å®‹ä½“';
     font-family: '\5b8b\4f53';
     font-family: SimSun;
 
-    font-family: "Î¢ÈíÑÅºÚ";
+    font-family: "å¾®è½¯é›…é»‘";
     font-family: Miscrosoft YaHei; */
 
     color: #3c3c3c;
     background-color: #f4f4f4;
 }
 
-/* Çå³ý¸¡¶¯ */
+/* æ¸…é™¤æµ®åŠ¨ */
 .clearfix:after{
     content: '';
     display: block;
@@ -52,7 +52,7 @@ body{
     float: right;
 }
 
-.leayer{
+.layer{
     width: 1190px;
     margin: 0 auto;
 }
