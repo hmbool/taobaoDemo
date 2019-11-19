@@ -156,7 +156,7 @@
 }
 #headSearch h1 a{
     display: block;
-    width: 126px;
+    width: 185px;
     height: 56px;
     background: url(../images/logo.png) center no-repeat;
     background-size: 150px;
@@ -281,4 +281,102 @@
 }
 #headSearch .hotKey a:hover{
     color: #f50;
+}
+
+
+/* 导航 */
+#nav h2{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #f50;
+}
+#nav ul{
+    margin-left: 190px;
+    /* overflow: hidden; */
+    height: 30px;
+
+    /* width: 1000px;
+    width: calc(100% - 190px); */
+
+    background-image: linear-gradient(to right,#ff9000,#ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', 
+    endColorstr='#ffff5000', GradientType=1);
+}
+#nav ul li{
+    float: left;
+    line-height: 30px;
+    margin: 0 7px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 4px;
+
+    position: relative;
+}
+#nav ul li.size{
+    font-size: 16px;
+}
+#nav ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+#nav ul li.line{
+    padding: 0;
+    margin: 0;
+}
+#nav ul li:hover:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/mark.png);
+
+    top: -50px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+/* 首屏内容 */
+.firstLeft{
+    width: 890px;
+}
+/* 侧边导航 */
+
+
+.firstLeft .sideNav{
+    width: 190px;
+    height: 522px;
+    background: #ddd;
+}
+
+/* 图片1容器 */
+.img1Box{
+    width: 690px;
+    height: 282px;
+    background: #eee;
+}
+
+/* 图片2容器 */
+.img2Box{
+    width: 690px;
+    height: 230px;
+    background: #ccc;
+    margin-top: 10px;
+}
+
+/* 淘宝头条 */
+.news{
+    width: 890px;
+    height: 100px;
+    background: #999;
+}
+
+/* 右边的内容 */
+.firstRight{
+    width: 290px;
+    height: 621px;
+    background: #9c9c9c;
 }
